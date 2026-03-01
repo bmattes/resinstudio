@@ -56,6 +56,6 @@ To update any page:
 - Line with: `https://apps.apple.com/app/resinstudio/idXXXXXXXXXX`
 - Replace `idXXXXXXXXXX` with your actual App Store ID after approval
 
-**Update contact email (if needed):**
-- Currently set to: `support@resinstudio.app`
-- If using a different email, find/replace in all files
+**Contact email:**
+- Currently set to: `bmattes+resinstudio@gmail.com`
+- All ResinStudio support emails will go to your Gmail inbox
