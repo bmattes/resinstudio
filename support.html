@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & FAQ - ResinStudio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1A1A2E 0%, #0F0F1A 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #1A1A2E;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #D4A843;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        h3 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        p, li {
+            margin-bottom: 15px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #D4A843;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .contact-box {
+            background: rgba(212, 168, 67, 0.1);
+            border: 1px solid rgba(212, 168, 67, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .contact-box a {
+            color: #D4A843;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <a href="index.html" class="back-link">← Back to Home</a>
+
+            <h1>Support & FAQ</h1>
+
+            <h2>Getting Started</h2>
+
+            <h3>How do I start my free trial?</h3>
+            <p>Open ResinStudio and complete the onboarding. When prompted, tap "Start 14-day free trial" to begin your trial. You can also dismiss the prompt and explore the free tier first. No credit card is required until you choose to subscribe.</p>
+
+            <h3>What's included in the free tier?</h3>
+            <p>The free tier includes:</p>
+            <ul>
+                <li>Unlimited calculator usage</li>
+                <li>Up to 5 molds</li>
+                <li>Up to 10 supplies</li>
+                <li>Up to 10 projects</li>
+                <li>3 invoices per month</li>
+            </ul>
+
+            <h2>Using the Calculator</h2>
+
+            <h3>What ratios are supported?</h3>
+            <p>ResinStudio supports 1:1, 2:1, 3:1, 4:1, and custom ratios. Select your ratio and the calculator will automatically split your total volume into Part A and Part B.</p>
+
+            <h3>What mold shapes can I use?</h3>
+            <p>Supported shapes include: round, square, rectangle, oval, dome, and custom freeform shapes. Enter your dimensions and ResinStudio calculates the volume automatically.</p>
+
+            <h3>What is the overpour buffer?</h3>
+            <p>The overpour buffer adds extra resin (5-30%) to account for waste during mixing and pouring. This ensures you never run short mid-pour.</p>
+
+            <h2>Mold Library</h2>
+
+            <h3>How do I add a mold?</h3>
+            <p>Tap the + button on the Molds tab. Add a photo (optional), enter dimensions, and select the shape. ResinStudio automatically calculates and saves the volume.</p>
+
+            <h3>Can I use my saved molds in the calculator?</h3>
+            <p>Yes! Tap any saved mold to pre-fill the calculator with its dimensions and volume.</p>
+
+            <h2>Project Costing</h2>
+
+            <h3>How does the margin slider work?</h3>
+            <p>The margin slider shows your profit margin in real-time as you adjust your sale price. The color changes from red (low margin) to amber (medium) to teal/green (high margin) based on your target.</p>
+
+            <h3>What costs are tracked?</h3>
+            <p>ResinStudio tracks material costs (supplies used), labor costs (hours × hourly rate), and overhead percentage (default 10%). All costs are combined to show your total cost per unit.</p>
+
+            <h2>Invoicing</h2>
+
+            <h3>How do I create an invoice?</h3>
+            <p>Tap the + button on the Invoices tab. Add client details, line items (you can pull from project history), and tap Save. Your invoice is automatically numbered.</p>
+
+            <h3>How do I export an invoice as PDF?</h3>
+            <p>Open any invoice and tap "Export PDF". Choose where to save or share the PDF.</p>
+
+            <h2>Subscription</h2>
+
+            <h3>How much does ResinStudio cost?</h3>
+            <p>After your 14-day free trial:</p>
+            <ul>
+                <li>$6.99/month (billed monthly)</li>
+                <li>$44.99/year (save 46%, billed annually)</li>
+            </ul>
+
+            <h3>Can I cancel my subscription?</h3>
+            <p>Yes, anytime. Go to iPhone Settings → Apple ID → Subscriptions → ResinStudio → Cancel Subscription. You'll keep Pro access until the end of your billing period.</p>
+
+            <h3>How do I restore my purchase on a new device?</h3>
+            <p>Open ResinStudio → Settings → Restore Purchases. Your subscription will sync automatically via your Apple ID.</p>
+
+            <h2>Privacy & Data</h2>
+
+            <h3>Is my data stored in the cloud?</h3>
+            <p>No. All data is stored locally on your device using SQLite. We do not sync data to any cloud service or collect personal information. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+            <h3>What analytics do you collect?</h3>
+            <p>We use PostHog to track anonymous feature usage (e.g., "user created a project") to improve the app. No personal information, photos, or business data is collected.</p>
+
+            <h2>Troubleshooting</h2>
+
+            <h3>The app crashed or froze</h3>
+            <p>Try force-quitting the app and restarting it. If the issue persists, restart your device. Contact support if the problem continues.</p>
+
+            <h3>I can't export PDFs</h3>
+            <p>PDF export requires iOS 13+ and may not work reliably in the iOS Simulator. Test on a real device. If issues persist, contact support.</p>
+
+            <h3>My subscription isn't working</h3>
+            <p>Go to Settings → Restore Purchases. If the issue persists, verify your subscription is active in iPhone Settings → Apple ID → Subscriptions.</p>
+
+            <div class="contact-box">
+                <h3>Still need help?</h3>
+                <p>Contact us at <a href="mailto:support@resinstudio.app">support@resinstudio.app</a></p>
+                <p>We typically respond within 24 hours.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
